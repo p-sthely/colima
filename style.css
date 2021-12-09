@@ -1,0 +1,123 @@
+/**
+*   bootstrap elements
+*/
+
+.btn-secondary {
+    border-radius: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.section-newsletter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("https://www.sortiraparis.com/images/80/79263/604283-reconfinement-le-top-du-yoga-en-ligne-pour-rester-centre.jpg");
+    background-size: cover;
+}
+
+/**
+*   custom classes
+*/
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.z-index-0 {
+    z-index: 0;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.gray-scale-35 {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+.opacity-35 {
+    opacity: .35;
+}
+
+.opacity-90 {
+    opacity: .9;
+}
+
+/**
+*   modifiers
+*/
+
+/* medium breakpoint */
+@media (min-width: 768px) {
+    .mw-md-20 {
+        max-width: 20%;
+    }
+    .mw-md-30 {
+        max-width: 30%;
+    }
+    .mw-md-70 {
+        max-width: 70%;
+    }
+}
+
+/* large breakpoint */
+@media (min-width: 992px) {
+    .mw-lg-30 {
+        max-width: 30%;
+    }
+    .mw-lg-45 {
+        max-width: 45%;
+    }
+    .mw-lg-50 {
+        max-width: 50%;
+    }
+}
+
+.offcanvas:not(.show) {
+    align-items: flex-end;
+}
+
+.offcanvas:not(.show) .nav-item a {
+    font-size: 1em;
+    color: #FFF;
+}
+
+.offcanvas.show {
+    text-align: center;
+}
+
+.offcanvas.show .nav-item a {
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+.offcanvas.show .nav-item a:hover {
+    color: #6c757d;
+}
+
+/**
+*   animations
+*/
+
+/* fadeIn */
+
+.animate-fadeIn {
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
